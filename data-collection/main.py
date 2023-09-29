@@ -24,7 +24,7 @@ async def startup_sensors() -> status.Status:
 
 async def main():
     # Start up sensors. TODO: Add status returning.
-    startup_sensors()
+    await startup_sensors()
     pass
     
 
